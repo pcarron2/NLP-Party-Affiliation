@@ -21,10 +21,10 @@ if __name__ == '__main__':
 	#have a democrat set and a republican set.
 	#This will be used for purely analytical reasons to find terms comparing
 	#the Democrat versus the Republican party.
-	destPath="C:/Users/Raymond/Desktop/Party-Affiliation-master/PickleDicts/"
-	trainPath="C:/Users/Raymond/Desktop/convote/data_stage_one/training_set/"
-	testPath="C:/Users/Raymond/Desktop/convote/data_stage_one/test_set/"
-	devPath="C:/Users/Raymond/Desktop/convote/data_stage_one/development_set/"
+	destPath="PICKLE DICTIONARY PATH"
+	trainPath="TRAINING SET PATH"
+	testPath="TEST SET PATH"
+	devPath="DEV SET PATH"
 	trainFileNames=os.listdir(trainPath)
 	testFileNames=os.listdir(testPath)
 	devFileNames=os.listdir(devPath)
